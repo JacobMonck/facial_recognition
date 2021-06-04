@@ -2,7 +2,6 @@ import numpy as np
 
 import cv2
 
-profile_cascade = cv2.CascadeClassifier("cascades/data/haarcascade_profileface.xml")
 face_cascade = cv2.CascadeClassifier("cascades/data/haarcascade_frontalface_alt.xml")
 
 
